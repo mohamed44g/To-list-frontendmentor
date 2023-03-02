@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body id="">
+
+    <div class="background">
+      <div class="background-overlay">
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="tasks-div">
+          <div class="to-do-container">
+            <div class="to-do-header">
+              <div class="to-do-title">
+                <h1>todo</h1>
+              </div>
+              <div class="Theme-toggle">
+                <img src="images/icon-moon.svg" alt="dark-theme" srcset="">
+              </div>
+            </div>
+    
+            <div class="add-task">
+              <form id="addTaskform">
+                <input type="text" name="text" placeholder="Create a new to do" id="addTask">
+              </form>
+            </div>
+    
+            <div class="to-do-tasks shadow">
+              <div class="to-do-tasks-footer">
+                <p class="task-left"><span class="task-number m-1">0</span>item left</p>
+                <ul class="task-veiwed">
+                  <li class="all-task veiw-active">All</li>
+                  <li class="active-task">Active</li>
+                  <li class="completed-task">Completed</li>
+                </ul>
+                <p class="clear-completed-btn">clear completed</p>
+              </div>
+            </div>
+    
+            <ul class="task-veiwed-mobile shadow">
+              <li class="all-task veiw-active">All</li>
+              <li class="active-task">Active</li>
+              <li class="completed-task">Completed</li>
+            </ul>
+          </div>
+        </div>
+
+    </div>
+
+  <script src="js/main.js"></script>
+
+  <footer>
+    <div class="attribution text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mohamed badry</a>.
+    </div>
+  </footer>
+</body>
+</html>
